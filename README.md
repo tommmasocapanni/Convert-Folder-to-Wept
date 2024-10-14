@@ -1,12 +1,11 @@
 # Progetto di Compressione Immagini in Python
+<img width="912" alt="Screenshot 2024-10-14 alle 15 38 59" src="https://github.com/user-attachments/assets/fdfd1ee6-3259-4de9-b626-1f0a5687c902">
+
+Questo progetto consente di comprimere immagini in formato `.webp` utilizzando un'app Python. Include uno script di avvio automatico che facilita l'installazione delle dipendenze necessarie e l'esecuzione dell'applicazione.
+
 
 ![drag-n-drop-GIF](https://github.com/user-attachments/assets/ac820524-cc45-4bb5-bee1-cd752c384fc3)
 
-<img width="912" alt="Screenshot 2024-10-14 alle 15 38 59" src="https://github.com/user-attachments/assets/fdfd1ee6-3259-4de9-b626-1f0a5687c902">
-
-
-
-Questo progetto consente di comprimere immagini in formato `.webp` utilizzando un'app Python. Include uno script di avvio automatico che facilita l'installazione delle dipendenze necessarie e l'esecuzione dell'applicazione.
 
 ## Prerequisiti
 
