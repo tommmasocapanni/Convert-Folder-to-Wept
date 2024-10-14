@@ -1,4 +1,5 @@
 import os
+import sys
 import glob
 import subprocess
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, 
@@ -9,6 +10,25 @@ from PyQt5.QtCore import Qt, QThread, pyqtSignal, QThreadPool, QRunnable
 from PyQt5.QtGui import QPixmap, QFont, QColor
 from pathlib import Path
 from PIL import Image
+
+# Percorso dell'ambiente virtuale
+venv_path = os.path.join(os.getcwd(), 'venv')
+
+# Controlla se l'ambiente virtuale esiste
+if not os.path.exists(venv_path):
+    print("Ambiente virtuale non trovato, creazione in corso...")
+    # Crea l'ambiente virtuale
+    subprocess.check_call([sys.executable, '-m', 'venv', venv_path])
+
+    # Installa i pacchetti necessari
+    subprocess.check_call([os.path.join(venv_path, 'bin', 'pip'), 'install', '-r', 'requirements.txt'])
+
+# Attiva l'ambiente virtuale
+activate_script = os.path.join(venv_path, 'bin', 'activate_this.py')
+exec(open(activate_script).read(), {'__file__': activate_script})
+
+# Da qui in poi il codice continua normalmente
+
 
 class ConversionTask(QRunnable):
     def __init__(self, image_path, output_folder, worker):
