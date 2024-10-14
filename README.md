@@ -17,9 +17,8 @@ Assicurati di avere installato le seguenti applicazioni nel tuo sistema:
 
 ## Contenuto del Progetto
 
-- `install_and_run.command`: Script per installare le dipendenze e avviare l'app.
-- `setup_and_run.command`: Script di avvio automatico che verifica l'esistenza di `install_and_run.command`.
-- `folder_converter_wept.py`: Il tuo script principale per la compressione delle immagini.
+- `ConvertFolderToWept.command`: Script per installare le dipendenze e avviare l'app.
+- `folder_converter_wept_alpha.py`: Il tuo script principale per la compressione delle immagini.
 - `requirements.txt`: Elenco delle dipendenze necessarie per il progetto.
 
 ## Istruzioni per l'Installazione e l'Esecuzione
