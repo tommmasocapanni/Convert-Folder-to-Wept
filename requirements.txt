@@ -1,0 +1,2 @@
+PyQt5
+Pillow  # per lavorare con immagini, se necessario
