@@ -1,8 +1,7 @@
 # Progetto di Compressione Immagini in Python
 
+![drag-n-drop-GIF](https://github.com/user-attachments/assets/ac820524-cc45-4bb5-bee1-cd752c384fc3)
 
-
-https://github.com/user-attachments/assets/f84b3b16-56c8-47ce-aa83-6ab8fee895e0
 
 
 
